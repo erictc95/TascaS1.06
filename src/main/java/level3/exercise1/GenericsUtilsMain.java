@@ -5,7 +5,7 @@ public class GenericsUtilsMain {
     public static void main (String[] args) {
         Smartphone sp = createSmartphone();
 
-
+        useSmartphoneDirectly(sp);
         GenericUtils.usePhone(sp);
         GenericUtils.useSmartphone(sp);
     }

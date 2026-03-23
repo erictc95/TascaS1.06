@@ -7,7 +7,7 @@ public class PersonMain {
 
         GenericMethods gm = new GenericMethods();
         gm.printAll("Fixed", p1, "Que tal?", 56, 4.7, "Gemelos?");
-        gm.printAll("Fixed", "Quien?", 3.4, p1);
+        gm.printAll("Fixed", "Quien?", p1);
 
     }
 }
